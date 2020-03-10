@@ -1,0 +1,54 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 5px;
+	flex-grow: 1;
+}
+
+.card img {
+	width: 150px;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.card p {
+	flex-wrap: wrap;
+}
+
+#card-second {
+	box-shadow: 3px 5px 0px  #ffa500;
+}
+
+#card-first {
+	box-shadow: 3px 5px 0px  rgb(255, 206, 51);
+}
+
+#card-third {
+	box-shadow: 3px 5px 0px  rgb(102, 51, 204);
+}
+
+#card-second h3 {
+	color: #ffa500;
+}
+
+#card-first h3 {
+	color: rgb(255, 206, 51);
+}
+
+#card-third h3 {
+	color: rgb(102, 51, 204);
+}
